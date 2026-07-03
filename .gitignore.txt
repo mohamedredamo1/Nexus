@@ -1,0 +1,16 @@
+# For Unity
+/Library/
+/Temp/
+/obj/
+/Build/
+/UserSettings/
+
+# For Unreal
+/DerivedDataCache/
+/Intermediate/
+/Saved/
+
+# For general
+.DS_Store
+*.tmp
+*.log

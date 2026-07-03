@@ -1,0 +1,427 @@
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1782961927887122, "dur":40764, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1782961927927895, "dur":184, "ph":"X", "name": "RemoveStaleOutputs",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1782961927928133, "dur":541, "ph":"X", "name": "BuildQueueInit",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1782961927928759, "dur":73, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":0, "ts":1782961927928863, "dur":54, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/resources.assets" }}
+,{ "pid":12345, "tid":0, "ts":1782961927928963, "dur":71, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":0, "ts":1782961927929132, "dur":57, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":0, "ts":1782961927929722, "dur":83, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":0, "ts":1782961927929903, "dur":87, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":0, "ts":1782961927930025, "dur":62, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":0, "ts":1782961927930974, "dur":132, "ph":"X", "name": "EmitFirstTimeEnqueue",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":0, "ts":1782961927928701, "dur":4608, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1782961927933311, "dur":56538, "ph":"X", "name": "WaitForBuildFinished", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1782961927989851, "dur":388, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1782961927990240, "dur":138, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1782961927990615, "dur":2646, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1782961927929718, "dur":3673, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927933397, "dur":1679, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927935078, "dur":1410, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927936489, "dur":7575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927944068, "dur":188, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":1, "ts":1782961927944258, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927944380, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927944513, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/D3D12/D3D12Core.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927944592, "dur":13699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927958298, "dur":217, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927958518, "dur":124, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927958643, "dur":68, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927958732, "dur":172, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927958912, "dur":112, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.Collections.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959026, "dur":108, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959157, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959260, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959311, "dur":144, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959459, "dur":201, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959661, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959798, "dur":96, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959895, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927959968, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1782961927960023, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1782961927960170, "dur":29699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1782961927929394, "dur":3948, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1782961927936859, "dur":963, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/il2cpp/build/deploy" }}
+,{ "pid":12345, "tid":2, "ts":1782961927937822, "dur":4666, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/il2cpp/libil2cpp" }}
+,{ "pid":12345, "tid":2, "ts":1782961927942489, "dur":66, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport" }}
+,{ "pid":12345, "tid":2, "ts":1782961927942556, "dur":1031, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono" }}
+,{ "pid":12345, "tid":2, "ts":1782961927943587, "dur":58, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/Variations/win64_player_nondevelopment_mono/Data/Resources" }}
+,{ "pid":12345, "tid":2, "ts":1782961927943645, "dur":208, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"C:/Program Files/Unity/Hub/Editor/6000.0.38f1/Editor/Data/Tools/BuildPipeline" }}
+,{ "pid":12345, "tid":2, "ts":1782961927943853, "dur":100, "ph":"X", "name": "CheckGlobSignature",  "args": { "detail":"Library/PlayerDataCache/Win642/Data" }}
+,{ "pid":12345, "tid":2, "ts":1782961927933349, "dur":10689, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1782961927944048, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteResponseFile Library/Bee/artifacts/rsp/14952184081338944905.rsp" }}
+,{ "pid":12345, "tid":2, "ts":1782961927944105, "dur":102, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1782961927944212, "dur":1393, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"UnityLinker C:/Users/admin/Desktop/nexus/Library/Bee/artifacts/unitylinker_dwek.traceevents" }}
+,{ "pid":12345, "tid":2, "ts":1782961927945606, "dur":3307, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1782961927958261, "dur":2019, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"GenerateNativePluginsForAssemblies Library/Bee/artifacts/WinPlayerBuildProgram/AsyncPluginsFromLinker" }}
+,{ "pid":12345, "tid":2, "ts":1782961927960281, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1782961927960613, "dur":25315, "ph":"X", "name": "ComputeFileSignatureSha1",  "args": { "detail":"Library\\Bee\\artifacts\\WinPlayerBuildProgram\\AsyncPluginsFromLinker\\x86_64\\lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1782961927960595, "dur":25336, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":2, "ts":1782961927987305, "dur":2467, "ph":"X", "name": "CopyFiles",  "args": { "detail":"NEXUSGAMEfirstbuild/nexus_Data/Plugins/x86_64/lib_burst_generated.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927930240, "dur":3269, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927933518, "dur":1490, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927935009, "dur":1600, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927936609, "dur":7499, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927944117, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1782961927944314, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1782961927944394, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927944514, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927944578, "dur":13718, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927958300, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927958545, "dur":235, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927958781, "dur":54, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927958839, "dur":142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.Burst.Unsafe.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927958983, "dur":114, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927959138, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927959334, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927959394, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927959455, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927959540, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.RenderPipelines.Universal.2D.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927959681, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927959810, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927959896, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927960004, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927960098, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.RenderPipelines.Universal.Runtime.dll" }}
+,{ "pid":12345, "tid":3, "ts":1782961927960164, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1782961927960280, "dur":29565, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927929560, "dur":3803, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927933373, "dur":1485, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927934859, "dur":1303, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927936163, "dur":641, "ph":"X", "name": "File",  "args": { "detail":"C:\\Users\\admin\\Desktop\\nexus\\Library\\Bee\\PlayerScriptAssemblies\\Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":4, "ts":1782961927936163, "dur":1851, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927938014, "dur":6060, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927944077, "dur":179, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":4, "ts":1782961927944257, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927944375, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":4, "ts":1782961927944492, "dur":106, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927944603, "dur":13706, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927958348, "dur":245, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927958615, "dur":159, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927958821, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1782961927958909, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959022, "dur":110, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959133, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959313, "dur":162, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959476, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959532, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959656, "dur":89, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959756, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.ContentLoadModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959882, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927959997, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1782961927960087, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1782961927960162, "dur":29679, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927929672, "dur":3706, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927933382, "dur":2157, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927935540, "dur":1368, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927936908, "dur":7147, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927944057, "dur":155, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1782961927944214, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927944320, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":5, "ts":1782961927944386, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927944441, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1782961927944607, "dur":57, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":5, "ts":1782961927944665, "dur":13620, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927958289, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.Multiplayer.Center.Common.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927958398, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927958543, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927958684, "dur":93, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927958777, "dur":58, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927958836, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927958903, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959013, "dur":140, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959155, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959296, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959396, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959498, "dur":110, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959629, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959710, "dur":55, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.InternalAPIEngineBridge.001.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959766, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959873, "dur":120, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1782961927959993, "dur":125, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.MarshallingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927960119, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1782961927960234, "dur":29629, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927929894, "dur":3547, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927933447, "dur":1590, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927935038, "dur":1314, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927936353, "dur":1080, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927937433, "dur":6626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927944107, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1782961927944311, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":6, "ts":1782961927944406, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927944518, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927944628, "dur":13636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927958267, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927958328, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927958403, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927958832, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927958983, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927959101, "dur":119, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AMDModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927959221, "dur":277, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927959504, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927959565, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927959637, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927959717, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927959783, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927959935, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927960039, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1782961927960128, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1782961927960188, "dur":29701, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927929786, "dur":3639, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927933433, "dur":1515, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927934949, "dur":1709, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927936658, "dur":7392, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927944055, "dur":118, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1782961927944175, "dur":78, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927944265, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":7, "ts":1782961927944380, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927944472, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927944581, "dur":13720, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927958307, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1782961927958530, "dur":146, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927958677, "dur":60, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.HierarchyCoreModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1782961927958739, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.Burst.dll" }}
+,{ "pid":12345, "tid":7, "ts":1782961927958840, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927958924, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.InputSystem.dll" }}
+,{ "pid":12345, "tid":7, "ts":1782961927959031, "dur":100, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927959144, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.RenderPipelines.Core.Runtime.dll" }}
+,{ "pid":12345, "tid":7, "ts":1782961927959274, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927959364, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1782961927959511, "dur":127, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927959664, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927959761, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.MultiplayerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1782961927959869, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1782961927960007, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1782961927960191, "dur":29705, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927929999, "dur":3454, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927933458, "dur":1422, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927934880, "dur":1496, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927936376, "dur":518, "ph":"X", "name": "File",  "args": { "detail":"Library\\PlayerDataCache\\Win642\\Data\\sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":8, "ts":1782961927936376, "dur":1298, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927937674, "dur":6367, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927944052, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/csharpactions/boot.config_tyr4.info" }}
+,{ "pid":12345, "tid":8, "ts":1782961927944118, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927944297, "dur":930, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"AddBootConfigGUID Library/Bee/artifacts/WinPlayerBuildProgram/boot.config" }}
+,{ "pid":12345, "tid":8, "ts":1782961927945228, "dur":132, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927945380, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927945464, "dur":12803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927958269, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927958385, "dur":129, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927958537, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927958630, "dur":125, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927958771, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927958853, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927958953, "dur":101, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927959055, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927959258, "dur":87, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.InputSystem.ForUI.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927959346, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927959449, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927959531, "dur":103, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927959643, "dur":106, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927959750, "dur":107, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927959865, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927960033, "dur":88, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.ShaderVariantAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1782961927960122, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1782961927960185, "dur":29651, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927930080, "dur":3389, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927933476, "dur":1465, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927934942, "dur":1265, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927936208, "dur":616, "ph":"X", "name": "File",  "args": { "detail":"C:\\Users\\admin\\Desktop\\nexus\\Library\\Bee\\PlayerScriptAssemblies\\Unity.2D.SpriteShape.Runtime.dll" }}
+,{ "pid":12345, "tid":9, "ts":1782961927936208, "dur":1582, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927937790, "dur":6253, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927944057, "dur":109, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927944193, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927944289, "dur":232, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":9, "ts":1782961927944655, "dur":13626, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927958294, "dur":293, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":9, "ts":1782961927958589, "dur":148, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927958752, "dur":113, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":9, "ts":1782961927958867, "dur":122, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959013, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959139, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959248, "dur":81, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959340, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959454, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959562, "dur":90, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959669, "dur":150, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959828, "dur":94, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.PropertiesModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1782961927959923, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1782961927960016, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.GraphicsStateCollectionSerializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1782961927960195, "dur":29680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927930147, "dur":3337, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927933489, "dur":2351, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927935841, "dur":1703, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927937545, "dur":6575, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927944130, "dur":277, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":10, "ts":1782961927944409, "dur":88, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927944509, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927944614, "dur":13648, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927958264, "dur":104, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1782961927958369, "dur":151, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927958556, "dur":99, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1782961927958657, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927958777, "dur":88, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":10, "ts":1782961927958868, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.Mathematics.dll" }}
+,{ "pid":12345, "tid":10, "ts":1782961927959172, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1782961927959353, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927959422, "dur":81, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1782961927959503, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927959624, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1782961927959744, "dur":123, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927959872, "dur":133, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1782961927960005, "dur":76, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927960087, "dur":77, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1782961927960168, "dur":29689, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927930294, "dur":3232, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927933530, "dur":1474, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927935004, "dur":1279, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927936284, "dur":1080, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927937365, "dur":6812, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927944180, "dur":202, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":11, "ts":1782961927944383, "dur":92, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927944493, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927944548, "dur":109, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":11, "ts":1782961927944659, "dur":13646, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927958308, "dur":378, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1782961927958687, "dur":67, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927958809, "dur":176, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927958990, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959042, "dur":62, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959105, "dur":50, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Runtime.dll" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959157, "dur":120, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959278, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959359, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959496, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959550, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959693, "dur":75, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959812, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.InputForUIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959881, "dur":53, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927959940, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1782961927960084, "dur":98, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1782961927960238, "dur":29609, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927930372, "dur":3175, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927933557, "dur":1703, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927935260, "dur":1442, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927936703, "dur":7395, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927944100, "dur":244, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":12, "ts":1782961927944345, "dur":135, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927944537, "dur":83, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":12, "ts":1782961927944621, "dur":13667, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927958294, "dur":227, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1782961927958522, "dur":86, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927958617, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":12, "ts":1782961927958748, "dur":99, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927958854, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":12, "ts":1782961927958955, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959054, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959155, "dur":119, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959283, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959364, "dur":111, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959485, "dur":123, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959609, "dur":117, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959727, "dur":56, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959791, "dur":101, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927959916, "dur":69, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927960034, "dur":84, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1782961927960122, "dur":29721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927930445, "dur":3126, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927933576, "dur":1393, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927934969, "dur":1269, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927936238, "dur":1061, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927937300, "dur":6769, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927944073, "dur":221, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":13, "ts":1782961927944358, "dur":134, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus.exe" }}
+,{ "pid":12345, "tid":13, "ts":1782961927944493, "dur":57, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927944550, "dur":89, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus.exe" }}
+,{ "pid":12345, "tid":13, "ts":1782961927944640, "dur":13635, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927958279, "dur":458, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1782961927958738, "dur":136, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927958885, "dur":266, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.Cinemachine.dll" }}
+,{ "pid":12345, "tid":13, "ts":1782961927959153, "dur":142, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927959302, "dur":85, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.2D.Tilemap.Extras.dll" }}
+,{ "pid":12345, "tid":13, "ts":1782961927959388, "dur":50, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927959443, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1782961927959552, "dur":112, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927959677, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":13, "ts":1782961927959827, "dur":95, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927959935, "dur":87, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927960034, "dur":105, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":13, "ts":1782961927960177, "dur":29683, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927930511, "dur":3075, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927933592, "dur":1642, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927935235, "dur":1478, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927936714, "dur":7400, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927944120, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":14, "ts":1782961927944266, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927944335, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":14, "ts":1782961927944409, "dur":64, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927944480, "dur":52, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927944532, "dur":78, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":14, "ts":1782961927944612, "dur":13658, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927958273, "dur":108, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1782961927958382, "dur":133, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927958539, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927958635, "dur":152, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927958795, "dur":296, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1782961927959093, "dur":202, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927959311, "dur":157, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.RenderPipelines.Core.Runtime.Shared.dll" }}
+,{ "pid":12345, "tid":14, "ts":1782961927959469, "dur":240, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927959751, "dur":213, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":14, "ts":1782961927959966, "dur":169, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":14, "ts":1782961927960152, "dur":29699, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927930586, "dur":3013, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927933604, "dur":1680, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927935284, "dur":1276, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927936560, "dur":7486, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927944049, "dur":325, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":15, "ts":1782961927944375, "dur":54, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927944482, "dur":56, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927944539, "dur":92, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Plugins/x86_64/libonigwrap.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927944632, "dur":13680, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927958315, "dur":254, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.Splines.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927958571, "dur":182, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927958777, "dur":129, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927958907, "dur":131, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959049, "dur":137, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.2D.PixelPerfect.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959187, "dur":85, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959277, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.2D.Common.Runtime.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959329, "dur":59, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959392, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959507, "dur":73, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959581, "dur":60, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959670, "dur":97, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959768, "dur":65, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959839, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927959901, "dur":68, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927960018, "dur":80, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927960102, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.RenderPipelines.Universal.Shaders.dll" }}
+,{ "pid":12345, "tid":15, "ts":1782961927960163, "dur":51, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":15, "ts":1782961927960218, "dur":29655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927930736, "dur":2876, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927933612, "dur":1409, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927935021, "dur":1559, "ph":"X", "name": "EarlyStatNonGeneratedFile",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927936580, "dur":7568, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927944159, "dur":124, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":16, "ts":1782961927944339, "dur":76, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927944415, "dur":63, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927944478, "dur":97, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927944581, "dur":79, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927944684, "dur":13634, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927958320, "dur":187, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927958508, "dur":74, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927958591, "dur":84, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/Unity.2D.IK.Runtime.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927958676, "dur":94, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927958806, "dur":107, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927958914, "dur":116, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927959042, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927959170, "dur":139, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927959310, "dur":91, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927959406, "dur":105, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927959513, "dur":195, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927959716, "dur":58, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927959780, "dur":75, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927959900, "dur":111, "ph":"X", "name": "EmitNodeUpToDate",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927960012, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles NEXUSGAMEfirstbuild/nexus_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":16, "ts":1782961927960083, "dur":55, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":16, "ts":1782961927960165, "dur":29668, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1782961927998656, "dur":1242, "ph":"X", "name": "ProfilerWriteOutput" }
+,
